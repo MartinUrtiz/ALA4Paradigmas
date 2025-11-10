@@ -7,17 +7,6 @@ En este programa se aplican varias ideas de la Programación Orientada a Objetos
 Toda la información de una tarea está dentro de una estructura llamada Tarea, que agrupa sus propiedades (id, titulo, estado, etc.).
 Además, se usa readonly y Object.freeze() para evitar que los datos se modifiquen por error, protegiendo el contenido de cada tarea.
 
-const nuevaTarea: Tarea = Object.freeze({
-  id: lista.length + 1,
-  titulo,
-  descripcion,
-  estado,
-  creacion: new Date(),
-  ultimaEdicion: new Date(),
-  vencimiento,
-  dificultad,
-});
-
 🔹 Abstracción
 
 Cada acción del programa (crear, buscar, filtrar o actualizar tareas) está dentro de una función con un nombre claro.
